@@ -5,7 +5,6 @@
       <laf-to-scheme laf="Darcula" scheme="_@user_Moonlight (Material)" />
       <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Atom One Dark (Material)" />
       <laf-to-scheme laf="LIGHT_CUSTOM" scheme="_@user_Material Lighter" />
-      <laf-to-scheme laf="ONE_DARK" scheme="_@user_Default" />
       <laf-to-scheme laf="One Dark Vivid Italic" scheme="_@user_One Dark Vivid Italic" />
     </lafs-to-previous-schemes>
   </component>
