@@ -1,0 +1,37 @@
+<templateSet group="Custom">
+  <template name="gw" value="// Given&#10;&#10;// When &amp; Then&#10;" description="Given - When &amp; Then" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="gwt" value="// Given&#10;&#10;// When &#10;&#10;// Then&#10;" description="Given - When - Then" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="hmf" value="&lt;header&gt;&lt;/header&gt;&#10;&#10;&lt;main&gt;&#10;&#10;&lt;/main&gt;&#10;&#10;&lt;footer&gt;&lt;/footer&gt;&#10;" description="header - main - footer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="im1" value="import static org.assertj.core.api.Assertions.*;&#10;" description="import assertj Assertions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="im2" value="import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;" description="import BDDMockito" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="im3" value="import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;&#10;import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;&#10;import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;" description="import BBDMockito and MockMvc" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

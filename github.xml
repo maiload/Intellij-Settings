@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="maiload" id="ef5c4538-0562-4219-8309-21369d695b93">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
