@@ -30,6 +30,9 @@
   <action id="Docker.RemoteServers.StartContainer" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="control meta button1" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="meta k" />
@@ -42,11 +45,15 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
   <action id="EditorSplitLine" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="FileChooser.GoToParent" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
@@ -70,7 +77,13 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoAction" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f3" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
   <action id="GotoLine" />
+  <action id="GotoRelated" />
   <action id="GotoRow" />
   <action id="IncrementalSearch" />
   <action id="Jdbc.OpenConsole.New" />
@@ -78,6 +91,12 @@
   <action id="KotlinShellExecute" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -113,6 +132,12 @@
   <action id="RunToolbarRerunAction">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -122,6 +147,11 @@
   <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.SelectBlockAbove">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="Terminal.SelectLastBlock" />
+  <action id="Terminal.SelectPrompt" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Tree-startEditing" />
   <action id="Vcs.Log.FocusTextFilter" />
