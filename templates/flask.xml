@@ -4,7 +4,6 @@
     <variable name="ROUTE_NAME" expression="" defaultValue="METHOD_NAME" alwaysStopAt="true" />
     <context>
       <option name="Django" value="false" />
-      <option name="Python" value="true" />
     </context>
   </template>
   <template name="routegp" value="@app.route('/$ROUTE_NAME$', methods=['GET', 'POST'])&#10;def $METHOD_NAME$():&#10;    pass" description="Flask route with ''GET' and 'POST' methods" toReformat="false" toShortenFQNames="true">
@@ -12,7 +11,6 @@
     <variable name="ROUTE_NAME" expression="" defaultValue="METHOD_NAME" alwaysStopAt="true" />
     <context>
       <option name="Django" value="false" />
-      <option name="Python" value="true" />
     </context>
   </template>
   <template name="routep" value="@app.route('/$ROUTE_NAME$', methods=['POST'])&#10;def $METHOD_NAME$():&#10;    pass" description="Flask route with  'POST' method" toReformat="false" toShortenFQNames="true">
@@ -20,7 +18,6 @@
     <variable name="ROUTE_NAME" expression="" defaultValue="METHOD_NAME" alwaysStopAt="true" />
     <context>
       <option name="Django" value="false" />
-      <option name="Python" value="true" />
     </context>
   </template>
 </templateSet>

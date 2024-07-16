@@ -80,6 +80,7 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f3" />
     <mouse-shortcut keystroke="meta button1" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="GotoLine" />
   <action id="GotoRelated" />
