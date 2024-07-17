@@ -35,6 +35,10 @@
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="control meta button1" />
   </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="meta k" />
@@ -160,6 +164,7 @@
   <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.CloseSession" />
   <action id="Terminal.SelectBlockAbove">
     <keyboard-shortcut first-keystroke="up" />
   </action>
@@ -167,6 +172,7 @@
   <action id="Terminal.SelectPrompt" />
   <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Tree-startEditing" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.ShowTooltip">
     <mouse-shortcut keystroke="alt button2" />
