@@ -33,7 +33,7 @@
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorAddOrRemoveCaret">
-    <mouse-shortcut keystroke="control meta button1" />
+    <mouse-shortcut keystroke="meta alt button1" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
