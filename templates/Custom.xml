@@ -22,13 +22,13 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="im2" value="import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;" description="import BDDMockito" toReformat="false" toShortenFQNames="true">
+  <template name="im2" value="import static org.assertj.core.api.Assertions.*;&#10;import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;&#10;" description="(Service) import BDDMockito" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="im3" value="import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;&#10;import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;&#10;import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;" description="import BBDMockito and MockMvc" toReformat="false" toShortenFQNames="true">
+  <template name="im3" value="import static org.mockito.ArgumentMatchers.*;&#10;import static org.mockito.BDDMockito.*;&#10;import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;&#10;import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;" description="(Controller) import BBDMockito and MockMvc" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
