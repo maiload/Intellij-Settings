@@ -2,9 +2,7 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
-  </action>
+  <action id="ActivateStructureToolWindow" />
   <action id="Arrangement.Rule.Edit" />
   <action id="AutoIndentLines" />
   <action id="BookmarksView.Rename" />
@@ -141,7 +139,7 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta f" />
