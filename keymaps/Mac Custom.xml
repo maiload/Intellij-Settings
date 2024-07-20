@@ -36,7 +36,6 @@
     <mouse-shortcut keystroke="meta alt button1" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDown">
@@ -49,6 +48,11 @@
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="meta right" />
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
