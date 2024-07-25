@@ -52,6 +52,11 @@
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="meta l" />
@@ -167,6 +172,7 @@
   <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.ClearPrompt" />
   <action id="Terminal.CloseSession" />
   <action id="Terminal.SelectBlockAbove">
     <keyboard-shortcut first-keystroke="up" />
