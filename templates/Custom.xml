@@ -34,4 +34,19 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="logm" value="log.info(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;);" description="Prints current class and method names to log.info" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="logp" value="log.info($FORMAT$);" description="Prints method parameter names and values to log.info" toReformat="true" toShortenFQNames="true">
+    <variable name="FORMAT" expression="groovyScript(&quot;def params = _1.withIndex().collect { el, index -&gt; el + ' = {}' }.join(', '); return '\&quot;' + params + '\&quot;' + ', ' + _1.join(', ')&quot;, methodParameters(), methodParameterTypes()) " defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
