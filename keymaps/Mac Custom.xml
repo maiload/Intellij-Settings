@@ -112,11 +112,9 @@
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
   <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
   <action id="MoveLineDown">
