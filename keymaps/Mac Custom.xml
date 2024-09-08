@@ -105,7 +105,6 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="Git.Rename.Local.Branch">
@@ -148,7 +147,6 @@
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NextWindow" />
