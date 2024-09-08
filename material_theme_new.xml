@@ -8,6 +8,7 @@
     <option name="metadata">
       <MTMetadataState>
         <option name="allowDataCollection" value="true" />
+        <option name="pristineConfig" value="false" />
         <option name="userId" value="-3389ae79:19071a7845c:-8000" />
         <option name="version" value="9.3.1" />
         <option name="wizardShown" value="true" />

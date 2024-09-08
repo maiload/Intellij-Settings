@@ -56,9 +56,16 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="KOTLIN_LABEL">
+    <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="c3d3de" />
+        <option name="FOREGROUND" value="f6cae3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JAVA_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="f6cae3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
@@ -69,10 +76,8 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="383d48" />
+        <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="557ecf" />
-        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="RUNTIME_ERROR">
