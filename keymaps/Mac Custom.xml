@@ -11,6 +11,7 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="BookmarksView.Rename" />
+  <action id="ChangeSignature" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -120,6 +121,9 @@
   <action id="GotoRelated" />
   <action id="GotoRow" />
   <action id="IncrementalSearch" />
+  <action id="IntroduceConstant">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="KotlinShellExecute" />
@@ -132,6 +136,7 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
+  <action id="ModifyObject" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
