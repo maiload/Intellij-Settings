@@ -45,6 +45,10 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -62,7 +66,6 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta right" />
