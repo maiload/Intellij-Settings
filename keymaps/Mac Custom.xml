@@ -126,6 +126,10 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="meta period" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="GotoRelated" />
   <action id="GotoRow" />
   <action id="IncrementalSearch" />
@@ -158,6 +162,7 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="Print" />
+  <action id="PyExecuteCellAction" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
