@@ -143,6 +143,8 @@
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="KotlinShellExecute" />
+  <action id="List-selectFirstRowExtendSelection" />
+  <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
@@ -153,6 +155,12 @@
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="ModifyObject" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
