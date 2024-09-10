@@ -40,10 +40,10 @@
     <mouse-shortcut keystroke="meta alt button1" />
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="meta alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="EditorCutLineEnd">
     <keyboard-shortcut first-keystroke="ctrl k" />
@@ -85,8 +85,11 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="EditorScrollBottom">
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
   <action id="EditorScrollTop">
-    <keyboard-shortcut first-keystroke="ctrl meta up" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorToggleCase">
