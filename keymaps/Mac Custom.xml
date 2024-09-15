@@ -58,6 +58,7 @@
   </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift meta down" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
@@ -66,10 +67,12 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta right" />
     <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="meta left" />
     <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta u" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta left" />
@@ -104,6 +107,7 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="EvaluateExpression" />
   <action id="FileChooser.GoToParent" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -227,6 +231,7 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="ShowProjectStructureSettings" />
   <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer" />
@@ -259,6 +264,7 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
