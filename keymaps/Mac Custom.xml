@@ -153,7 +153,6 @@
   </action>
   <action id="GotoLine" />
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="meta period" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="GotoRelated" />
@@ -247,7 +246,9 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
-  <action id="ShowProjectStructureSettings" />
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="meta period" />
+  </action>
   <action id="SplitChooser.Duplicate" />
   <action id="Table-startEditing" />
   <action id="Terminal.ClearBuffer" />
