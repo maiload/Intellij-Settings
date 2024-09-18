@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="ActivateStructureToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="AutoIndentLines" />
   <action id="Back">
