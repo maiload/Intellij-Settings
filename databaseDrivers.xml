@@ -1,5 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="elasticsearch">
+      <artifact id="Elasticsearch" name="Elasticsearch" use="true" version="7.17.10" />
+    </driver>
     <driver id="mysql.8">
       <artifact />
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.2.0" />
@@ -9,6 +12,13 @@
     </driver>
     <driver id="postgresql">
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+    </driver>
+    <driver id="b8159eab-ea71-4247-adef-16d8d62c6c8b" name="Elasticsearch 8" dialect="GenericSQL" driver-class="org.elasticsearch.xpack.sql.jdbc.EsDriver" icon="AllIcons.Providers.Elasticsearch">
+      <url-template name="default" template="jdbc:es://[http://|https://][{host::localhost}[:{port::9200}]]/{prefix:param/[^?]*}[?&lt;&amp;,user={user},password={password},{:identifier/[^&amp;=]+}={:identifier/[^&amp;]*}&gt;]" />
+      <url-template name="default" template="jdbc:elasticsearch://[http://|https://][{host::localhost}[:{port::9200}]]/{prefix:param/[^?]*}[?&lt;&amp;,user={user},password={password},{:identifier/[^&amp;=]+}={:identifier/[^&amp;]*}&gt;]" />
+      <library>
+        <url>file://$USER_HOME$/Downloads/x-pack-sql-jdbc-8.5.0.jar</url>
+      </library>
     </driver>
   </component>
 </application>
