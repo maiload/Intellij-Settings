@@ -2,5 +2,6 @@
   <component name="ConfigState">
     <option name="hintEnable" value="false" />
     <option name="isShowShadeHint" value="false" />
+    <option name="uploadPredictedLevel" value="smart_short" />
   </component>
 </application>
