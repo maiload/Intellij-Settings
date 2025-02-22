@@ -14,7 +14,7 @@
       <artifact id="AWS Aurora MySQL" name="AWS Aurora MySQL" use="true" version="1.1.14" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
     </driver>
     <driver id="redis">
       <artifact id="Redis" name="Redis" use="true" version="1.5" />

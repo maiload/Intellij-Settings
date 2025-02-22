@@ -10,7 +10,7 @@
                 <option name="grepExpressionItems">
                   <list>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*FATAL.*" />
+                      <option name="grepExpression" value=".*\b(FATAL|CRITICAL)\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -30,7 +30,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*ERROR.*" />
+                      <option name="grepExpression" value=".*\b(ERROR|SEVERE)\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -49,7 +49,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*WARN.*" />
+                      <option name="grepExpression" value=".*\bWARN(ING)?\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -69,7 +69,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="enabled" value="false" />
-                      <option name="grepExpression" value=".*INFO.*" />
+                      <option name="grepExpression" value=".*\bINFO\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -88,7 +88,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*DEBUG.*" />
+                      <option name="grepExpression" value=".*\b(DEBUG|FINE)\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -107,7 +107,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="grepExpression" value=".*TRACE.*" />
+                      <option name="grepExpression" value=".*\b(TRACE|FINER|FINEST)\b.*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -133,7 +133,7 @@
               </GrepExpressionGroup>
             </list>
           </option>
-          <option name="id" value="1704902026148" />
+          <option name="id" value="1735969238529" />
           <option name="inputFilterGroups">
             <list>
               <GrepExpressionGroup>

@@ -2,6 +2,7 @@
   <component name="ConfigState">
     <option name="hintEnable" value="false" />
     <option name="isShowShadeHint" value="false" />
-    <option name="uploadPredictedLevel" value="smart_short" />
+    <option name="remotePredictionLevel" value="SINGLE_LINE" />
+    <option name="uploadPredictedLevel" value="smart_single" />
   </component>
 </application>
