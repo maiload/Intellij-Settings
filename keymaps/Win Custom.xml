@@ -13,6 +13,7 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="AutoIndentLines" />
   <action id="BookmarksView.Rename" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -67,6 +68,14 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
@@ -137,6 +146,8 @@
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MethodOverloadSwitchDown" />
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp">
