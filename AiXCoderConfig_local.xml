@@ -3,7 +3,6 @@
     <option name="hintEnable" value="false" />
     <option name="isShowShadeHint" value="false" />
     <option name="toolwindowWidth" value="843" />
-    <option name="remotePredictionLevel" value="SINGLE_LINE" />
-    <option name="uploadPredictedLevel" value="smart_single" />
+    <option name="uploadPredictedLevel" value="smart_short" />
   </component>
 </application>
