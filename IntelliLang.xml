@@ -14,6 +14,16 @@
       <place><![CDATA[psiMethod().withName("pipeline").withParameters().definedInClass("org.springframework.data.mongodb.repository.Aggregation")]]></place>
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.data.mongodb.repository.Aggregation")]]></place>
     </injection>
+    <injection language="http-url-reference" injector-id="java">
+      <display-name>Android Volley (com.android.volley)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("ImageRequest").definedInClass("com.android.volley.toolbox.ImageRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("JsonArrayRequest").definedInClass("com.android.volley.toolbox.JsonArrayRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("JsonObjectRequest").withParameterCount(4).definedInClass("com.android.volley.toolbox.JsonObjectRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("StringRequest").withParameterCount(3).definedInClass("com.android.volley.toolbox.StringRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("JsonObjectRequest").withParameterCount(5).definedInClass("com.android.volley.toolbox.JsonObjectRequest"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("StringRequest").withParameterCount(4).definedInClass("com.android.volley.toolbox.StringRequest"))]]></place>
+    </injection>
     <injection language="http-header-reference" injector-id="java">
       <display-name>Apache HttpClient 4 HTTP Header (org.apache.http)</display-name>
       <single-file value="true" />
@@ -102,6 +112,12 @@
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Insert")]]></place>
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Select")]]></place>
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Update")]]></place>
+    </injection>
+    <injection language="http-url-reference" injector-id="java">
+      <display-name>OkHttp (okhttp3)</display-name>
+      <single-file value="true" />
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("parse", "get", "newBuilder").withParameters("java.lang.String").definedInClass("okhttp3.HttpUrl"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("url").withParameters("java.lang.String").definedInClass("okhttp3.Request.Builder"))]]></place>
     </injection>
     <injection language="Spring-MongoDB-JSON" injector-id="java">
       <display-name>Query (org.springframework.data.mongodb.repository)</display-name>
